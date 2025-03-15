@@ -8,8 +8,6 @@ public class Main {
         my_box.length = 10;
         my_box.width = 10;
 
-        double volume = my_box.height * my_box.length * my_box.width;
-
-        System.out.println(volume);
+        my_box.showVolume();
     }
 }
