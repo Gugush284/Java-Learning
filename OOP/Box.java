@@ -6,9 +6,11 @@ public class Box {
     double height;
 
     Box(){
-        this.length = 10;
-        this.width = 10;
-        this.height = 10;
+        this(10);
+    }
+
+    Box(double size){
+        this(size, size, size);
     }
 
     Box(double length, double width, double height){
